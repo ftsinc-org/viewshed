@@ -12,7 +12,7 @@ RUN apt-get update \
     && apt-get upgrade -y \
     && DEBIAN_FRONTEND=noninteractive apt-get install -y \
       wget \
-      libopencv-* \ 
+      libopencv-* \
       libtiff5 \
       gdal-bin \
       python3-pip \

@@ -94,7 +94,7 @@ var ViewShed = React.createClass({
             </BS.Col>
             <BS.Col md={6}>
               <Forms.LngInput name="lng" required={true} value={this.state.lng}></Forms.LngInput>
-            </BS.Col> 
+            </BS.Col>
           </BS.Row>
           <BS.Row>
             <BS.Col md={4}>
@@ -119,7 +119,7 @@ var ViewShed = React.createClass({
             </BS.Col>
             <BS.Col md={4}>
               <button style={{width:"100%"}} className={submitClass} type="submit" disabled={this.state.submitDisabled}>Compute Viewshed</button>
-            </BS.Col> 
+            </BS.Col>
           </BS.Row>
         </Formsy.Form>
         <BS.Row style={{height:"100%"}}>

@@ -55,4 +55,4 @@ docker run -it --rm -p 8080:8080 -v "$(pwd)/tiles.leveldb:/usr/local/viewshed/da
 ```
 
 ## Data Source & Quality
-The calculations are currently based on [SRTM Digital Elevation Database v4.1](http://www.cgiar-csi.org/data/srtm-90m-digital-elevation-database-v4-1). Calculations are accurate worldwide to approx. 90m. 
+The calculations are currently based on [SRTM Digital Elevation Database v4.1](http://www.cgiar-csi.org/data/srtm-90m-digital-elevation-database-v4-1). Calculations are accurate worldwide to approx. 90m.
